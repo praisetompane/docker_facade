@@ -1,5 +1,5 @@
 #!/bin/zsh
-# quick utility to prune containers 
+# quick utility to remove stopped containers 
 
 dccl() {
     yes | docker container prune
