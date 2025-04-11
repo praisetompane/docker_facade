@@ -11,7 +11,7 @@ if [ -e $docker_facade ]; then
     rm $docker_facade
 fi
 
-for entry in *.sh; do
+for entry in src/*.sh; do
     echo $entry
     if [[ $entry == "install.sh" ]]; then
         continue;

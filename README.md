@@ -39,6 +39,8 @@ Facade to reduce docker command typing ceremony.
 
 - Reload open terminals and you are good to go.
 
+## [Documentation](docs/README.md)
+
 ## Usage:
 - Example:
     ```shell

@@ -3,9 +3,6 @@
 # image(str): image tag
 # entrypoint(str): container entrypoint
 
-# Example:
-# dirn alpine:latest sh
-
 dirn(){
     image=$1
     entrypoint=$2
