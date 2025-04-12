@@ -1,7 +1,5 @@
-#!/bin/zsh
-# quick utility to remove all containers 
-
 dcrma(){
+    # quick utility to remove all containers 
     echo "Stopping containers"
         dcspa
     echo "Done"

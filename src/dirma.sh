@@ -1,6 +1,4 @@
-#!/bin/zsh
-# quick utility to remove all images 
-
 dirma() {
+    # quick utility to remove all images 
     docker rmi $(docker images -a -q)
 }

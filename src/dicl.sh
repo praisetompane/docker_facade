@@ -1,6 +1,4 @@
-#!/bin/zsh
-# quick utility to clean images
-
 dicl() {
+    # quick utility to clean images
     yes | docker image prune
 }

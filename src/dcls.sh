@@ -1,6 +1,4 @@
-#!/bin/zsh
-# quick utility to list containers 
-
 dcls() {
+    # quick utility to list containers 
     docker ps
 }

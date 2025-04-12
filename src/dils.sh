@@ -1,7 +1,5 @@
-#!/bin/zsh
-# quick utility to list all images
-
 dils(){
+    # quick utility to list all images
     docker images
 }
 
