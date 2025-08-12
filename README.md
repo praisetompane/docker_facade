@@ -11,19 +11,20 @@ Facade to reduce docker command typing ceremony.
         - `aa`:= git action represented as two letters
         - `fl`:= flags
 - Notation glossary:
-    - d := git 
-    - o := git object 
-        - c := container 
+    - d := git
+    - o := git object
+        - c := container
         - i := image
         - s := system
-    - a := docker action(s) 
+    - a := docker action(s)
         - bd := build
         - cl := clean
-        - rm := remove
+        - lg := logs
         - ls := list
-        - sp := stop
-        - rn := run
         - ph := push
+        - rm := remove
+        - rn := run
+        - sp := stop
 
     - f := docker flag(s)
         - f := force
